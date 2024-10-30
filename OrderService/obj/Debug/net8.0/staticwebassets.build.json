@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "HozjP1XYMH8nDJf4S9Ms6VV8tI5dYx9BXv8zf09iwVQ=",
+  "Source": "OrderService",
+  "BasePath": "_content/OrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrderService\\wwwroot",
+      "Source": "OrderService",
+      "ContentRoot": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\SIUUU\\HardcodeProjects\\orderservice\\wwwroot\\",
+      "BasePath": "_content/OrderService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\SIUUU\\HardcodeProjects\\orderservice\\wwwroot\\index.html",
+      "SourceId": "OrderService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\SIUUU\\HardcodeProjects\\orderservice\\wwwroot\\",
+      "BasePath": "_content/OrderService",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

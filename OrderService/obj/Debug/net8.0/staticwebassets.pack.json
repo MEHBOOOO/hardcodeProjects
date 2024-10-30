@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\SIUUU\\HardcodeProjects\\orderservice\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrderService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OrderService.props",
+      "PackagePath": "build\\OrderService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OrderService.props",
+      "PackagePath": "buildMultiTargeting\\OrderService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OrderService.props",
+      "PackagePath": "buildTransitive\\OrderService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

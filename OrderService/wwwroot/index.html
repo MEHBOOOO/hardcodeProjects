@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Service</title>
+</head>
+<body>
+    <h1>Create Order</h1>
+    <form id="orderForm">
+        <input type="text" id="customerName" placeholder="Customer Name" required>
+        <input type="text" id="product" placeholder="Product" required>
+        <input type="number" id="quantity" placeholder="Quantity" required>
+        <input type="number" id="price" placeholder="Price" required>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        document.getElementById('orderForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const order = {
+                customerName: document.getElementById('customerName').value,
+                product: document.getElementById('product').value,
+                quantity: document.getElementById('quantity').value,
+                price: document.getElementById('price').value,
+            };
+            const response = await fetch('/api/orders', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(order),
+            });
+            if (response.ok) {
+                alert('Order created successfully!');
+                document.getElementById('orderForm').reset();
+            } else {
+                alert('Error creating order.');
+            }
+        };
+    </script>
+</body>
+</html>
