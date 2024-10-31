@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SharedEvents\SharedEvents.csproj" />
-  </ItemGroup>
+  </ItemGroup> 
 
 
 </Project>

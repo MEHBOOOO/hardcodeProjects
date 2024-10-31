@@ -17,18 +17,27 @@ namespace DeliveryService.Consumers
 
         public async Task Consume(ConsumeContext<OrderCreatedEvent> context)
         {
-            var order = context.Message;
-
-            var deliveryRequest = new DeliveryRequest
+            try
             {
-                OrderId = order.OrderId,
-                Status = "Pending"
-            };
+                var order = context.Message;
 
-            _context.DeliveryRequests.Add(deliveryRequest);
-            await _context.SaveChangesAsync();
+                var deliveryRequest = new DeliveryRequest
+                {
+                    OrderId = order.OrderId,
+                    Status = "Pending"
+                };
 
-            System.Console.WriteLine($"Delivery request created for order {order.OrderId}");
+                _context.DeliveryRequests.Add(deliveryRequest);
+                await _context.SaveChangesAsync();
+                // throw new Exception("error test");
+
+                System.Console.WriteLine($"Delivery request created for order {order.OrderId}");
+            }
+            catch (Exception ex)
+            {
+                //ошибка
+                System.Console.WriteLine($"Error processing order event: {context.Message.OrderId}, {ex.Message}");
+            }
         }
     }
 }

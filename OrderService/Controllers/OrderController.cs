@@ -92,6 +92,7 @@ namespace OrderService.Controllers
                     Quantity = newOrder.Quantity,
                     Price = newOrder.Price
                 }, cancellationToken);
+                // throw new Exception("error test");
 
                 var createdOrderViewModel = new OrderViewModel
                 {

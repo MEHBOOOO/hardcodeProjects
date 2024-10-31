@@ -11,8 +11,20 @@
         ],
         "UpstreamPathTemplate": "/orders/{everything}",
         "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
-      }
-    ],
+      },
+      {
+      "DownstreamPathTemplate": "/api/deliveryrequests/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/deliveryrequests/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ],
     "GlobalConfiguration": {
       "BaseUrl": "https://localhost:5000"
     }
