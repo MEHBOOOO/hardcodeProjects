@@ -9,6 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using OrderService.DataTransferObjects;
 using SharedEvents;
+using Microsoft.Extensions.Logging;
 
 namespace OrderService.Controllers
 {
@@ -18,11 +19,14 @@ namespace OrderService.Controllers
     {
         private readonly OrderContext _context;
         private readonly IPublishEndpoint _publishEndpoint;
+        private readonly ILogger<OrdersController> _logger;
 
-        public OrdersController(OrderContext context, IPublishEndpoint publishEndpoint)
+        public OrdersController(OrderContext context, IPublishEndpoint publishEndpoint, ILogger<OrdersController> logger)
         {
             _context = context;
             _publishEndpoint = publishEndpoint;
+            _logger = logger;
+            
         }
 
         // get запрос на все заказы
@@ -78,28 +82,31 @@ namespace OrderService.Controllers
                 {
                     ProductName = newOrderDTO.ProductName,
                     Quantity = newOrderDTO.Quantity,
-                    Price = newOrderDTO.Price
+                    Price = newOrderDTO.Price,
+                    Status = "testPending0"
                 };
 
                 _context.Orders.Add(newOrder);
                 await _context.SaveChangesAsync(cancellationToken);
 
+                // throw new Exception("error test");
 // test
                 await _publishEndpoint.Publish(new SharedEvents.OrderCreatedEvent
                 {
                     OrderId = newOrder.Id,
                     ProductName = newOrder.ProductName,
                     Quantity = newOrder.Quantity,
-                    Price = newOrder.Price
+                    Price = newOrder.Price,
+                    NewStatus = "testPending1"
                 }, cancellationToken);
-                // throw new Exception("error test");
 
                 var createdOrderViewModel = new OrderViewModel
                 {
                     Id = newOrder.Id,
                     ProductName = newOrder.ProductName,
                     Quantity = newOrder.Quantity,
-                    Price = newOrder.Price
+                    Price = newOrder.Price,
+                    // NewStatus = "testPending2"
                 };
 
                 return CreatedAtAction(nameof(GetOrder), new { id = newOrder.Id }, createdOrderViewModel);
@@ -107,8 +114,8 @@ namespace OrderService.Controllers
             catch (Exception ex)
             {
 // ошибка
-                Console.WriteLine($"Error creating order: {ex.Message}");
-                return StatusCode(500, "An error occurred while creating the order.");
+                _logger.LogError(ex, "Error creating order");
+                return StatusCode(500, "ошибка йооу.");
             }
         }
 

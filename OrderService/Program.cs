@@ -2,24 +2,21 @@ using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using OrderService.Data;
 using OrderService.Extensions;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.AddControllers();
+builder.Services.ConfigureDbContext(builder.Configuration);
 
-builder.Services.AddMassTransit(x =>
+builder.Services.AddDbContext<OrderContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddMassTransitWithRabbitMq();
+
+builder.Services.AddLogging(loggingBuilder =>
 {
-    x.UsingRabbitMq((context, cfg) =>
-    {
-        cfg.Host("localhost", "/", h =>
-        {
-            h.Username("guest");
-            h.Password("guest");
-        });
-
-        cfg.ConfigureEndpoints(context);
-    });
+    loggingBuilder.AddConsole();
+    loggingBuilder.AddDebug();
 });
 
 var app = builder.Build();
@@ -31,5 +28,7 @@ if (app.Environment.IsDevelopment())
 
 // app.UseHttpsRedirection();
 app.MapControllers();
+app.UseRouting();
+app.UseAuthorization();
 
 app.Run();

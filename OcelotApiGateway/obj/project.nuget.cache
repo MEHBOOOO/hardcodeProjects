@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4qGTzEYWg4Q=",
+  "dgSpecHash": "Qm1rr9GR60M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\ocelotapigateway\\OcelotGateway.csproj",
+  "projectFilePath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\OcelotGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bauyr\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\Bauyr\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",
