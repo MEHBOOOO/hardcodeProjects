@@ -1,0 +1,16 @@
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.deps.json
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.pdb
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Domain.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.csproj.AssemblyReference.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.AssemblyInfoInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.AssemblyInfo.cs
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.sourcelink.json
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderSer.7EAAA39B.Up2Date
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\refint\OrderService.Application.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.pdb
+C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Application\obj\Debug\net8.0\ref\OrderService.Application.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\orderservice\\OrderService.csproj": {}
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\orderservice\\OrderService.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\orderservice\\OrderService.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.csproj",
         "projectName": "OrderService",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\orderservice\\OrderService.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\orderservice\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\SharedEvents.csproj": {
-                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\SharedEvents.csproj"
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj"
               }
             }
           }
@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -114,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\SharedEvents.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\SharedEvents.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj",
         "projectName": "SharedEvents",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\SharedEvents.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\SharedEvents\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",

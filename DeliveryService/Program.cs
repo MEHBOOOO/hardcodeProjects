@@ -1,51 +1,51 @@
-using MassTransit;
-using Microsoft.EntityFrameworkCore;
-using DeliveryService.Data;
-using DeliveryService.Consumers;
-using SharedEvents;
-using Microsoft.Extensions.Logging;
-using DeliveryService.Extensions;
+// using MassTransit;
+// using Microsoft.EntityFrameworkCore;
+// using DeliveryService.Data;
+// using DeliveryService.Consumers;
+// using SharedEvents;
+// using Microsoft.Extensions.Logging;
+// using DeliveryService.Extensions;
 
-var builder = WebApplication.CreateBuilder(args);
+// var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<DeliveryContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+// builder.Services.AddDbContext<DeliveryContext>(options =>
+//     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddControllers();
+// builder.Services.AddControllers();
 
-builder.Services.AddMassTransitWithRabbitMq();
-builder.Services.AddLogging(loggingBuilder =>
-{
-    loggingBuilder.AddConsole();
-    loggingBuilder.AddDebug();
-});
-// builder.Services.AddMassTransit(x =>
+// builder.Services.AddMassTransitWithRabbitMq();
+// builder.Services.AddLogging(loggingBuilder =>
 // {
-//     x.AddConsumer<OrderCreatedConsumer>();
-
-//     x.UsingRabbitMq((context, cfg) =>
-//     {
-//         cfg.Host("localhost", "/", h =>
-//         {
-//             h.Username("guest");
-//             h.Password("guest");
-//         });
-
-//         cfg.ReceiveEndpoint("order-created-event", e =>
-//         {
-//             e.ConfigureConsumer<OrderCreatedConsumer>(context);
-//         });
-//     });
+//     loggingBuilder.AddConsole();
+//     loggingBuilder.AddDebug();
 // });
+// // builder.Services.AddMassTransit(x =>
+// // {
+// //     x.AddConsumer<OrderCreatedConsumer>();
 
-var app = builder.Build();
+// //     x.UsingRabbitMq((context, cfg) =>
+// //     {
+// //         cfg.Host("localhost", "/", h =>
+// //         {
+// //             h.Username("guest");
+// //             h.Password("guest");
+// //         });
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-}
+// //         cfg.ReceiveEndpoint("order-created-event", e =>
+// //         {
+// //             e.ConfigureConsumer<OrderCreatedConsumer>(context);
+// //         });
+// //     });
+// // });
 
-// app.UseHttpsRedirection();
-app.MapControllers();
+// var app = builder.Build();
 
-app.Run();
+// if (app.Environment.IsDevelopment())
+// {
+//     app.UseDeveloperExceptionPage();
+// }
+
+// // app.UseHttpsRedirection();
+// app.MapControllers();
+
+// app.Run();
