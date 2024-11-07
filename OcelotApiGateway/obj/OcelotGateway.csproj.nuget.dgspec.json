@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\OcelotGateway.csproj": {}
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OcelotApiGateway\\OcelotGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\OcelotGateway.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OcelotApiGateway\\OcelotGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\OcelotGateway.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OcelotApiGateway\\OcelotGateway.csproj",
         "projectName": "OcelotGateway",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\OcelotGateway.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OcelotApiGateway\\OcelotGateway.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\hardcodeProjects\\Ocelotapigateway\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OcelotApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
