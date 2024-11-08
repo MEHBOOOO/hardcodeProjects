@@ -23,5 +23,7 @@
 <ItemGroup>
 
   <ProjectReference Include="..\SharedEvents\SharedEvents.csproj" />
+
+  <ProjectReference Include="DeliveryService.Domain\DeliveryService.Domain.csproj" />
 </ItemGroup>
 </Project>

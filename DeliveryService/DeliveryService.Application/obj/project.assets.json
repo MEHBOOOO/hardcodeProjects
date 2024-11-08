@@ -376,6 +376,16 @@
         "runtime": {
           "bin/placeholder/OrderService.Domain.dll": {}
         }
+      },
+      "SharedEvents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SharedEvents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedEvents.dll": {}
+        }
       }
     }
   },
@@ -1004,6 +1014,11 @@
       "type": "project",
       "path": "../../OrderService/OrderService.Domain/OrderService.Domain.csproj",
       "msbuildProject": "../../OrderService/OrderService.Domain/OrderService.Domain.csproj"
+    },
+    "SharedEvents/1.0.0": {
+      "type": "project",
+      "path": "../../SharedEvents/SharedEvents.csproj",
+      "msbuildProject": "../../SharedEvents/SharedEvents.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1014,7 +1029,8 @@
       "MassTransit >= 8.3.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.Extensions.Logging >= 8.0.1",
-      "OrderService.Domain >= 1.0.0"
+      "OrderService.Domain >= 1.0.0",
+      "SharedEvents >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1023,11 +1039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\deliveryservice.application\\DeliveryService.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Application\\DeliveryService.Application.csproj",
       "projectName": "DeliveryService.Application",
-      "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\deliveryservice.application\\DeliveryService.Application.csproj",
+      "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Application\\DeliveryService.Application.csproj",
       "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\deliveryservice.application\\obj\\",
+      "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1045,11 +1061,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {
-              "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj"
+            "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj"
             },
-            "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
-              "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+            "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+            },
+            "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj": {
+              "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj"
             }
           }
         }

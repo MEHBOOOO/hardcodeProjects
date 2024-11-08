@@ -684,7 +684,8 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "MassTransit": "8.3.0",
           "Microsoft.Extensions.Logging": "8.0.1",
-          "OrderService.Domain": "1.0.0"
+          "OrderService.Domain": "1.0.0",
+          "SharedEvents": "1.0.0"
         },
         "runtime": {
           "OrderService.Application.dll": {

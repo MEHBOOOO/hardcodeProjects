@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OrderService.Domain\OrderService.Domain.csproj" />
+    <ProjectReference Include="..\..\SharedEvents\SharedEvents.csproj" />
   </ItemGroup>
 
   <ItemGroup>

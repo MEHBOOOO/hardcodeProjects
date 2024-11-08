@@ -1,18 +1,18 @@
 {
-    "Routes": [
-      {
-        "DownstreamPathTemplate": "/api/orders/{everything}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 5001 
-          }
-        ],
-        "UpstreamPathTemplate": "/orders/{everything}",
-        "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
-      },
-      {
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/orders/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/orders/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/deliveryrequests/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -21,12 +21,11 @@
           "Port": 5002
         }
       ],
-      "UpstreamPathTemplate": "/api/deliveryrequests/{everything}",
+      "UpstreamPathTemplate": "/deliveryrequests/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
   ],
-    "GlobalConfiguration": {
-      "BaseUrl": "https://localhost:5000"
-    }
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
   }
-  
+}

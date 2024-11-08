@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {}
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\OrderService.Application.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\OrderService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\OrderService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\OrderService.Application.csproj",
         "projectName": "OrderService.Application",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\OrderService.Application.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\OrderService.Application.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj"
+              },
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj"
               }
             }
           }
@@ -83,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj",
         "projectName": "OrderService.Domain",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
         "projectName": "OrderService.Infrastructure",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,14 +172,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\OrderService.Application.csproj": {
-                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\orderservice\\OrderService.Application\\OrderService.Application.csproj"
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\OrderService.Application.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Application\\OrderService.Application.csproj"
               },
-              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj"
               },
-              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj": {
-                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj"
+              "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj": {
+                "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj"
               }
             }
           }
@@ -235,14 +238,14 @@
         }
       }
     },
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj",
         "projectName": "SharedEvents",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\SharedEvents.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\SharedEvents.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\SharedEvents\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\SharedEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",

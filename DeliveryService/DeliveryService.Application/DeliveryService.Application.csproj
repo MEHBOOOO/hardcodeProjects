@@ -12,7 +12,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\OrderService.Domain\OrderService.Domain.csproj" />
+    <ProjectReference Include="C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\OrderService\OrderService.Domain\OrderService.Domain.csproj" />
+    <ProjectReference Include="..\..\SharedEvents\SharedEvents.csproj" />
   </ItemGroup>
   
   <PropertyGroup>

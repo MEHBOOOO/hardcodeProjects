@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {}
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {
+    "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
         "projectName": "DeliveryService.Domain",
-        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
+        "projectPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
         "packagesPath": "C:\\Users\\Bauyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\20\\deliveryservice\\DeliveryService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\deliveryservice\\DeliveryService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bauyr\\AppData\\Roaming\\NuGet\\NuGet.Config",

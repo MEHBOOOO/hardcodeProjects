@@ -11,7 +11,8 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "MassTransit": "8.3.0",
           "Microsoft.Extensions.Logging": "8.0.1",
-          "OrderService.Domain": "1.0.0"
+          "OrderService.Domain": "1.0.0",
+          "SharedEvents": "1.0.0"
         },
         "runtime": {
           "OrderService.Application.dll": {}
@@ -208,6 +209,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SharedEvents/1.0.0": {
+        "runtime": {
+          "SharedEvents.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -344,6 +353,11 @@
       "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
     },
     "OrderService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedEvents/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
