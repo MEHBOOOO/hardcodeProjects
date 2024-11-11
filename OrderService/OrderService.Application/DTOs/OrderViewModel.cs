@@ -1,8 +1,3 @@
-// namespace OrderService.DataTransferObjects
-// {
-//     public record OrderViewModel(int Id, string ProductName, int Quantity, decimal Price);
-// }
-
 namespace OrderService.Application.DTOs
 {
     public class OrderViewModel

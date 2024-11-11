@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wqdkC5TDt0=",
+  "dgSpecHash": "d9dvc3nXh9Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\orderservice\\OrderService.Domain\\OrderService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Bauyr\\Desktop\\Новая папка (3)\\MicroservicesSolution\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

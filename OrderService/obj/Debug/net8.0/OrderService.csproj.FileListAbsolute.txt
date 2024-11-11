@@ -715,3 +715,11 @@ C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\obj\Debug\net8.
 C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\obj\Debug\net8.0\OrderService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\obj\Debug\net8.0\OrderService.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Bauyr\Desktop\Новая папка (3)\20\OrderService\obj\Debug\net8.0\OrderService.sourcelink.json
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.csproj.AssemblyReference.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.AssemblyInfoInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.AssemblyInfo.cs
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.csproj.CoreCompileInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\orderservice\obj\Debug\net8.0\OrderService.sourcelink.json
