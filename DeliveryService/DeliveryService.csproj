@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="MassTransit" Version="8.3.0" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
@@ -21,5 +23,7 @@
 <ItemGroup>
 
   <ProjectReference Include="..\SharedEvents\SharedEvents.csproj" />
+
+  <ProjectReference Include="DeliveryService.Domain\DeliveryService.Domain.csproj" />
 </ItemGroup>
 </Project>

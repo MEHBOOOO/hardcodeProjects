@@ -1,0 +1,84 @@
+# .NET Core
+**/bin/
+**/obj/
+**/appsettings.Development.json
+**/appsettings.json
+**/appsettings.Local.json
+**/appsettings.Test.json
+**/appsettings.Staging.json
+**/appsettings.Production.json
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+**/logs/
+*.log
+
+# Build artifacts
+**/dist/
+**/build/
+
+# IDE settings
+.idea/
+
+# Temp files
+*.tmp
+*.swp
+
+# Environment variables
+.env
+
+# NuGet
+**/packages/
+**/project.lock.json
+**/project.assets.json
+**/project.nuget.cache
+
+# Miscellaneous
+**/coverage/
+**/test-results/
+**/TestResults/
+**/TestResults.xml
+
+# Specific to your project
+**/DeliveryService/bin/
+**/DeliveryService/obj/
+**/DeliveryService.API/bin/
+**/DeliveryService.API/obj/
+**/DeliveryService.Application/bin/
+**/DeliveryService.Application/obj/
+**/DeliveryService.Domain/bin/
+**/DeliveryService.Domain/obj/
+**/DeliveryService.Infrastructure/bin/
+**/DeliveryService.Infrastructure/obj/
+**/OcelotApiGateway/bin/
+**/OcelotApiGateway/obj/
+**/OrderService/bin/
+**/OrderService/obj/
+**/OrderService.API/bin/
+**/OrderService.API/obj/
+**/OrderService.Application/bin/
+**/OrderService.Application/obj/
+**/OrderService.Domain/bin/
+**/OrderService.Domain/obj/
+**/OrderService.Infrastructure/bin/
+**/OrderService.Infrastructure/obj/
+**/SharedEvents/bin/
+**/SharedEvents/obj/
+
+# Additional specific files
+**/DeliveryService.API.http
+**/OrderService.API.http
+**/OrderService.http

@@ -366,3 +366,14 @@ C:\Users\Bauyr\Desktop\Новая папка (3)\hardcodeProjects\deliveryservic
 C:\Users\Bauyr\Desktop\Новая папка (3)\hardcodeProjects\deliveryservice\obj\Debug\net8.0\Delivery.C031E64A.Up2Date
 C:\Users\Bauyr\Desktop\Новая папка (3)\hardcodeProjects\deliveryservice\obj\Debug\net8.0\DeliveryService.genruntimeconfig.cache
 C:\Users\Bauyr\Desktop\Новая папка (3)\hardcodeProjects\deliveryservice\obj\Debug\net8.0\ref\DeliveryService.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.csproj.AssemblyReference.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.AssemblyInfoInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.AssemblyInfo.cs
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.csproj.CoreCompileInputs.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.sourcelink.json
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\refint\DeliveryService.dll
+C:\Users\Bauyr\Desktop\Новая папка (3)\MicroservicesSolution\deliveryservice\obj\Debug\net8.0\DeliveryService.pdb
